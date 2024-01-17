@@ -1,0 +1,71 @@
+.container{
+ font-size: 12px;
+ font-family: Arial, Helvetica, sans-serif;
+ box-sizing: border-box;
+ border: 1px solid lightgrey;
+ width: 30%;
+ border-radius: 5px;
+ margin: 30px 30px;
+ padding: 20px 20px;
+}
+.items{
+    display: flex;
+    align-items: center;
+    
+}
+.people_icon{
+    margin-right: 5px;
+}
+.image{
+    width: 100%;
+    
+}
+.image img{
+    
+    margin: 0px auto;
+    display: block;
+}
+
+.box1{
+    color: grey;
+    font-size: 16px; 
+    padding-top: 10px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 1px solid gray; */
+}
+
+.seperation{
+  border-color: rgb(244, 244, 244,30%);
+  margin: 30px 0px;
+}
+.subtitle h2{
+    color: grey;
+}
+
+.btn{
+ font-size: 16px;
+ padding: 5px;
+}
+
+.config {
+    display: grid;
+    /* gap: 20px; */
+    grid-template-columns: 50% 50%; /* Two columns with equal width */
+    grid-template-rows: 50% 50%;    /* Two rows with equal height */
+}
+.rate{
+display: flex;
+justify-content: space-between;
+}
+
+p{
+ font-size: 25px;
+}
+
+
